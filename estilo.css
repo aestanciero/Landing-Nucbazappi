@@ -1,0 +1,204 @@
+
+body{
+    background-color: #252525;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/*Seccio "Hoy Recomenamos"*/
+.section-recomendacion{
+    margin: 20px;
+}
+.conteiner-recomendacion{
+    display: flex;
+    gap: 30px;
+    margin: 60px;
+}
+.recomendaciones{
+    display: flex;
+    background: #4e4d4d;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+    width: 50vw;
+    height: 17vh;
+    padding: 5px;
+}
+/*Imagen Seccion Recomendacion*/
+.img-recomendacion{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-textos{
+    display: block;
+    justify-content: space-around;
+    align-items: flex-start;  
+}
+/*Titulo Seccion Recomendacion*/
+.title-recomendacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    font-size:15px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 0px;   
+}
+/*Texto Seccion Recomendacion*/
+.texto-recomendacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    opacity: 0.3;
+    letter-spacing: 0.2px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 50px;
+    
+}
+/*Precio Seccion Recomendacion*/
+.precio-recomendacion{
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: 900;
+font-size: 20px;
+margin-top: 80px;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+/*Boton Seccion Recomendacion*/
+.button-recomendacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    margin: 30px;
+    margin-left:250px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 17.5px;
+    background: rgb(252,162,7);
+    background: linear-gradient(90deg, rgba(252,162,7,0.8939950980392157) 0%, rgba(251,16,61,1) 100%);
+    color: #ffffff;
+}
+/* Seccion Categorias*/
+.title-categoria{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.contenedor-categoria{
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+}
+
+.card-categoria{
+    background: #3c3b3b;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;    
+    width: 147px;
+    height: 171px;
+    left: 116px;
+    top: 821px;
+}
+/*Imagen Seccion Categorias*/
+.img-categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#pizza-img{
+margin-bottom: 15px;
+}
+/*Titulo Seccion Categorias*/
+.parrafo-categoria{
+    text-align: center;
+    margin-top:10px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+/*Imagen Rectangulo Seccion Categorias*/
+.rectangle-categoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100wh;
+    height: 5vh;  
+}
+
+/* Seccion Mas Populares*/
+.mas-populares{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-left: 90px;
+}
+.title-populares{
+    margin-left: 30px;
+}
+.card-populares{
+    
+    background: #4e4d4d;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    height: 25vh;
+    
+}
+.nombre-populares{
+    display: flex;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.descripcion-populares{
+    display:flex;
+    opacity: 0.3;
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+.precio-populares{
+display: inline-block;
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: 900;
+font-size: 20px;
+margin-top: 5px;
+margin-bottom: 0;
+}
+.button-populares{
+    display: flex-box;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    margin:0 ;
+    margin-left:110px;
+    margin-top:0 ;
+    margin-bottom: 100px;
+    
+    border: none;
+    border-radius: 17.5px;
+    background: rgb(252,162,7);
+    background: linear-gradient(90deg, rgba(252,162,7,0.8939950980392157) 0%, rgba(251,16,61,1) 100%);
+    color: #ffffff;
+}
